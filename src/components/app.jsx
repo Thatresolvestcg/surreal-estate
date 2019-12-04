@@ -1,15 +1,18 @@
 import React from 'react';
 import navBar from './navBar';
+import '../styles/app.css'
 
 class App extends React.Component {
     render() {
         return (
-            <div className='hello'>
-                <h1>hello world</h1>
+            <span>
                 <div className='navBar'>
-
-                </div>
+                    test
             </div>
+                <div className='hello'>
+                    <h1>hello world</h1>
+                </div>
+            </span>
         )
     }
 }
