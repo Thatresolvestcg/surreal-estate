@@ -15,3 +15,7 @@
 .item:hover {
     font-weight: bold;
 }
+
+.logo {
+    width: 15vw;
+}
