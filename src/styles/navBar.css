@@ -20,10 +20,11 @@
     align-items: center;
     font-size: 1.5vw;
     padding: 1%;
+    font-weight: bold;
 }
 
 .item:hover {
-    font-weight: bold;
+    text-decoration: underline;
 }
 
 .logo {
