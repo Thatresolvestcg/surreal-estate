@@ -5,7 +5,12 @@ class navBar extends React.Component {
     render() {
         return (
             <div className='navBar'>
-                test
+                <div>
+                    <ul className='nav'>
+                        <li className='item'>View Properties</li>
+                        <li className='item'>Add a Property</li>
+                    </ul>
+                </div>
             </div>
         )
     }
