@@ -1,10 +1,10 @@
 import React from 'react';
-import '../styles/navBar.css'
+import '../styles/NavBar.css'
 
-class navBar extends React.Component {
+class NavBar extends React.Component {
     render() {
         return (
-            <div className='navBar'>
+            <div className='NavBar'>
                 <div>
                     <ul className='nav'>
                         <li className='item'>View Properties</li>
@@ -18,4 +18,4 @@ class navBar extends React.Component {
 
 
 
-export default navBar;
+export default NavBar;
